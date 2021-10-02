@@ -6,7 +6,7 @@ app.get("/oi", (request, response) => {
 });
 
 app.get("/frutas", (request, response) => {
-    response.status(200).send("jaca", "banana", "mamão")
+    response.status(200).send("jaca", "banana", "mamão", "uva")
 });
 
 app.listen(8080, () => {
