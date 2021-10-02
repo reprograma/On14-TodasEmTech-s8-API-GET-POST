@@ -12,8 +12,8 @@ app.get("/", (request, response) => {
     response.status(200).json([
         {
             "mensagem": "API de filmes ghibli turma On14"
-    }
-])
+        }
+    ])
 });
 
 app.get("/filmes", (request, response) => {
