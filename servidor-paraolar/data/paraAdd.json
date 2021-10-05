@@ -1,0 +1,43 @@
+[{
+    "Title": "Contratiempo",
+    "Year": "2016",
+    "Rated": "PG-13",
+    "Released": "6 jan 2017",
+    "Runtime": "1h 46m",
+    "Genre": "Thriller, Mistério",
+    "Director": "Oriol Paulo",
+    "Writer": "Oriol Paulo",
+    "Actors": "Mario Casas, Bárbara Lennie, José Coronado",
+    "Plot": "Adrian desperta em um hotel, e encontra sua amante morta coberta de dinheiro. Ele recorre a melhor advogada de defesa, e eles tentam descobrir o que realmente aconteceu na noite anterior.",
+    "Language": "Spanish",
+    "Country": "Spain",
+    "Awards": "1 wins & 2 nominations."
+}
+,
+
+{
+    "id": "1",
+    "title": "Brooklyn Nine-Nine",
+    "totalSeasons": "8",
+    "genre": [
+        "Sitcom",
+        "Comédia",
+        "Pocial"
+    ],
+    "writers": [
+        "Andy Samberg",
+        "Marshall Boone"
+    ],
+    "poster": "https://m.media-amazon.com/images/I/81PXAk2uQML._AC_SL1500_.jpg",
+    "actors": [	
+        "Andy Samberg",
+        "Stephanie Beatriz",
+        "Terry Crews",
+        "Melissa Fumero"
+    ],
+    "ratings": {
+        "rating": "8.4",
+        "likes": "264458"
+    }
+}
+]
