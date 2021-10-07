@@ -19,7 +19,7 @@ app.get("/filmes", (request, response)=>{
     response.status(200).send(filmesJson)
 })
 
-app.get("/filmes/:id", (request, response)=>{
+app.get("/filmes/buscar/:id", (request, response)=>{
     let idRequest = request.params.id
 
     let filmeEncontrado = filmesJson.find(filme => filme.id == idRequest)
@@ -27,7 +27,21 @@ app.get("/filmes/:id", (request, response)=>{
     response.status(200).send(filmeEncontrado)
 })
 
-app.post("/filmes/criar", (request, response)=>{
+
+app.get("/filmes/filtro", (request, response)=>{
+    let tituloRequest = request.query.titulo.toLocaleLowerCase()
+    console.log(tituloRequest)
+
+    let filmeEncontrado = filmesJson.filter(
+        filme => filme.title.toLowerCase().includes(tituloRequest)
+    )
+
+
+    response.status(200).send(filmeEncontrado)
+
+})
+
+app.post("/filmes", (request, response)=>{
     let tituloRequest = request.body.title
     let descricaoRequest = request.body.description
 
