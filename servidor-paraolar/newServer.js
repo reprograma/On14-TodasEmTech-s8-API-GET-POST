@@ -25,6 +25,7 @@ app.get("/filmes", (req, res) => {
     res.status(200).send(filmesJson)
 })
 
+//filtrando por patch params
 app.get("/filmes/:id", (req, res) => {
     let idRequest = req.params.id
     let filmeEncontrado = filmesJson.find(filme => filme.id == idRequest)
